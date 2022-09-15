@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="Autowired 005">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/CommentApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/config/CommentConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/proxy/PushCommentNotificationProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-05-Core-Abstraction/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/proxy/EmailCommentNotificationProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/proxy/EmailCommentNotificationProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/repository/DBCommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/repository/DBCommentRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/test/java/com/cydeo/CydeoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/test/java/com/cydeo/CydeoApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +51,43 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "11"
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/soly/IdeaProjects/spring-training-packages/spring-06-Core-BeanScope/src/main/java/com/cydeo",
+    "spring.configuration.checksum": "435250985e6c117423d9cabf6bb5dbcf"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-06-Core-BeanScope\src\main\java\com\cydeo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Spring07SpringBootDemoApplication">
+    <configuration name="CommentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.CommentApp" />
+      <module name="spring-05-Core-Abstraction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring07SpringBootDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-07-SpringBoot-Demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.CydeoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.cydeo.CommentApp" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +96,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663089472934</updated>
-      <workItem from="1663089474365" duration="4654000" />
+      <workItem from="1663089474365" duration="7497000" />
+      <workItem from="1663119313894" duration="17000" />
+      <workItem from="1663253301199" duration="2980000" />
     </task>
     <task id="LOCAL-00001" summary="Autowired 005">
       <created>1663093203708</created>
@@ -68,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663093203708</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Autowired 005">
+      <created>1663095445559</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663095445559</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
