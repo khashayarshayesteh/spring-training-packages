@@ -10,4 +10,12 @@ public class HomeController {
     private String home(){  //which end point? www.amazon.com
         return "home.html";
     }
+    @RequestMapping //nothing and / is default
+    private String home2(){  //which end point? www.amazon.com
+        return "home.html";
+    }
+    @RequestMapping({"/apple","/orange"}) // this is end point, end point is what ever you are looking in the application
+    private String home3(){  //which end point? www.amazon.com
+        return "home.html";
+    }
 }
