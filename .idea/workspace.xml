@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="Spring  MVC">
-      <change afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/cydeo/controller/CarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/cydeo/controller/MentorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/cydeo/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/cydeo/enums/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/cydeo/model/Mentor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/cydeo/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/resources/templates/car/car-info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/resources/templates/mentor/mentor-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/resources/templates/student/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/cydeo/ThymeleafApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/cydeo/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +78,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Spring09MvcModelApplication">
-    <configuration name="CommentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="com.cydeo.CommentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.CommentApp" />
       <module name="spring-05-Core-Abstraction" />
       <extension name="coverage">
@@ -122,6 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring10ThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-10-Thymeleaf" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.ThymeleafApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Spring09MvcModelApplication" />
@@ -157,6 +162,7 @@
       <workItem from="1663819917717" duration="9000" />
       <workItem from="1663823397738" duration="933000" />
       <workItem from="1663826815475" duration="1361000" />
+      <workItem from="1664145218130" duration="1528000" />
     </task>
     <task id="LOCAL-00001" summary="Autowired 005">
       <created>1663093203708</created>
@@ -193,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663685878685</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Spring  MVC">
+      <created>1664145425029</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664145425029</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
