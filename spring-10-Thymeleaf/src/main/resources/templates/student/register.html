@@ -14,13 +14,27 @@
 
 <!--Link-->
 
-<h2><a th:href="@{http://cydeo.com}">Cydeo page</a><br><br></h2>
-<h2><a th:href="@{http://facebook.com}">Facebook page</a><br></h2>
-<h2><a th:href="@{/student/welcome}">Welcome page</a></h2>
+<h2><a th:href="@{http://cydeo.com}">Cydeo page</a><br></h2>
+<h3><a th:href="@{http://facebook.com}">Facebook page</a><br></h3>
+<h3><a th:href="@{/student/welcome}">Welcome page</a></h3>
 
 <!--Adding parameters in link-->
-<h2><a th:href="@{/student/welcome(id=3)}">Link</a></h2>
-<h2><a th:href="@{/student/welcome(name=${students.get(0).firstName})}">Link</a></h2>
+<h2><a th:href="@{/student/welcome(id=3)}">Link1</a></h2>
+<h2><a th:href="@{/student/welcome(name=${students.get(0).firstName})}">Link2</a></h2>
+
+<!--Iteration-->
+<h2>Printing My List</h2>
+<h5>
+<ul>
+  <li th:each="student : ${students}" th:text="${student}"></li>
+</ul>
+</h5>
+<h2>Printing Student First Name</h2>
+<h5>
+  <ul>
+    <li th:each="student : ${students}" th:text="${student.firstName}"></li>
+  </ul>
+</h5>
 
 </body>
 </html>
