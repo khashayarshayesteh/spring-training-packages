@@ -12,6 +12,11 @@
 <h2 th:text="${'Hello'+ ' '+ students.get(0).firstName +  ' ' +students.get(0).lastName}" ></h2>
 <h2 th:text="${students.get(0).firstName + ' ' +students.get(0).lastName}" ></h2>
 
+<!--Link-->
+
+<a th:href="@{http://cydeo.com}">Cydeo page</a><br><br>
+<a th:href="@{http://facebook.com}">Facebook page</a><br>
+<a th:href="@{/student/welcome}">Welcome page</a>
 
 </body>
 </html>
