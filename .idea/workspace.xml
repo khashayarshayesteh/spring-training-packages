@@ -4,7 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="Spring  Thymeleaf" />
+    <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="Spring  Thymeleaf">
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/._bootstrap-4.1.3-dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/._custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/._css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/._js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/._bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/._bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/._bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/._bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/._bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/._bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/._bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/._bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/._bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/._bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/._bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/._bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/js/._bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/js/._bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/js/._bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/js/._bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/js/._bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/js/._bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/js/._bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/js/._bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/bootstrap-4.1.3-dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/images/._welcome-38249.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/images/welcome-38249.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/js/._jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/static/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/register.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +119,7 @@
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-06-Core-BeanScope\src\main\java\com\cydeo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-10-Thymeleaf\src\main\resources\static" />
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-09-MVC-Model\src\main\resources\templates\mentor" />
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-08-MVC-Controller\src\main\resources\static\student" />
     </key>
@@ -154,7 +210,7 @@
       <workItem from="1663823397738" duration="933000" />
       <workItem from="1663826815475" duration="1361000" />
       <workItem from="1664145218130" duration="6886000" />
-      <workItem from="1664154246250" duration="11497000" />
+      <workItem from="1664154246250" duration="14276000" />
     </task>
     <task id="LOCAL-00001" summary="Autowired 005">
       <created>1663093203708</created>
@@ -254,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664169327854</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Spring  Thymeleaf">
+      <created>1664169409276</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664169409276</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -9,8 +9,8 @@
 <h2 th:text="${students.get(0).lastName}"></h2>
 
 <!--Concatenation-->
-<h2 th:text="${'Hello'+ ' '+ students.get(0).firstName +  ' ' +students.get(0).lastName}" ></h2>
-<h2 th:text="${students.get(0).firstName + ' ' +students.get(0).lastName}" ></h2>
+<h2 th:text="${'Hello'+ ' '+ students.get(0).firstName +  ' ' +students.get(0).lastName}"></h2>
+<h2 th:text="${students.get(0).firstName + ' ' +students.get(0).lastName}"></h2>
 
 <!--Link-->
 
@@ -25,16 +25,35 @@
 <!--Iteration-->
 <h2>Printing My List</h2>
 <h5>
-<ul>
-  <li th:each="student : ${students}" th:text="${student}"></li>
-</ul>
+    <ul>
+        <li th:each="student : ${students}" th:text="${student}"></li>
+    </ul>
 </h5>
 <h2>Printing Student First Name</h2>
 <h5>
-  <ul>
-    <li th:each="student : ${students}" th:text="${student.firstName}"></li>
-  </ul>
+    <ul>
+        <li th:each="student : ${students}" th:text="${student.firstName}"></li>
+    </ul>
 </h5>
+<table>
+    <thead>
+    <tr>
+        <h1 FirstNameLastNameAgeGender></h1>
+        <td>First Name</td>
+        <td>Last Name</td>
+        <td>Age</td>
+        <td>state</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="student : ${students}">
+        <td th:text="${student.firstName}"></td>
+        <td th:text="${student.lastName}"></td>
+        <td th:text="${student.age}"></td>
+        <td th:text="${student.state}"></td>
+    </tr>
+    </tbody>
+</table>
 
 </body>
 </html>
