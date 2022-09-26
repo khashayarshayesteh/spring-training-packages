@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="Spring  Thymeleaf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/cydeo/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/cydeo/controller/StudentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +158,7 @@
       <workItem from="1663823397738" duration="933000" />
       <workItem from="1663826815475" duration="1361000" />
       <workItem from="1664145218130" duration="6886000" />
-      <workItem from="1664154246250" duration="7663000" />
+      <workItem from="1664154246250" duration="9020000" />
     </task>
     <task id="LOCAL-00001" summary="Autowired 005">
       <created>1663093203708</created>
@@ -229,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664163028819</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Spring  Thymeleaf">
+      <created>1664165793740</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664165793740</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

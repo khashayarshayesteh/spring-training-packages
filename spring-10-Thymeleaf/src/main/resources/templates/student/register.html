@@ -14,9 +14,12 @@
 
 <!--Link-->
 
-<a th:href="@{http://cydeo.com}">Cydeo page</a><br><br>
-<a th:href="@{http://facebook.com}">Facebook page</a><br>
-<a th:href="@{/student/welcome}">Welcome page</a>
+<h2><a th:href="@{http://cydeo.com}">Cydeo page</a><br><br></h2>
+<h2><a th:href="@{http://facebook.com}">Facebook page</a><br></h2>
+<h2><a th:href="@{/student/welcome}">Welcome page</a></h2>
+
+<!--Adding parameters in link-->
+<h2><a th:href="@{/student/welcome(id=3)}">Link</a></h2>
 
 </body>
 </html>
