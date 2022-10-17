@@ -36,7 +36,9 @@ import java.util.Random;
             model.addAttribute("numbers",numbers);
 
             LocalDate dt = LocalDate.now();
-            model.addAttribute("date",dt.getMonthValue());
+            model.addAttribute("date",dt);
+
+            model.addAttribute("day",dt.getDayOfMonth());
 
             Student student = new Student(1,"Mike","Smith");
             model.addAttribute("student",student);
