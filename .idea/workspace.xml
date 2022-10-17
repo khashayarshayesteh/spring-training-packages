@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="Spring  Thymeleaf">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/java/com/cydeo/controller/CanonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/java/com/cydeo/controller/CanonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/resources/static/canon.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/resources/static/canon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/resources/static/degree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/java/com/cydeo/controller/DegreeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/java/com/cydeo/controller/DegreeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +165,7 @@
       <workItem from="1664252546170" duration="6335000" />
       <workItem from="1664290029053" duration="920000" />
       <workItem from="1665860499146" duration="35000" />
-      <workItem from="1665978566050" duration="1965000" />
+      <workItem from="1665978566050" duration="2458000" />
     </task>
     <task id="LOCAL-00001" summary="Autowired 005">
       <created>1663093203708</created>
@@ -329,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665978715402</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Spring  Thymeleaf">
+      <created>1665981651546</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1665981651546</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
