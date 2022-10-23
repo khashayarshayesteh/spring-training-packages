@@ -22,6 +22,7 @@ public class MentorController {
         mentorList.add(new Mentor("Ammy","Bryan",25, Gender.MALE));
 
 
+
                 model.addAttribute("mentors",mentorList);
                 return "mentor/mentor-list";
     }
