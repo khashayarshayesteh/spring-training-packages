@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="spring-11">
-      <change afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/cydeo/boostsrap/DataGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/cydeo/entity/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/cydeo/repository/CarRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/cydeo/repository/CarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/cydeo/repository/CarRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +216,7 @@
       <workItem from="1666412350392" duration="3957000" />
       <workItem from="1666536434993" duration="8152000" />
       <workItem from="1666545745663" duration="8252000" />
-      <workItem from="1666575143148" duration="7609000" />
+      <workItem from="1666575143148" duration="8260000" />
     </task>
     <task id="LOCAL-00001" summary="Autowired 005">
       <created>1663093203708</created>
@@ -501,7 +498,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666583256639</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="spring-11">
+      <created>1666586772999</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1666586773000</updated>
+    </task>
+    <task id="LOCAL-00042" summary="spring-11">
+      <created>1666586794157</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1666586794157</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
