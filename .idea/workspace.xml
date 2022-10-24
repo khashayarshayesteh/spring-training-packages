@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="application.properties">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="spring-11">
+      <change afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/cydeo/entity/CreditAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/cydeo/entity/DebitAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,10 +16,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -216,7 +216,7 @@
       <workItem from="1666412350392" duration="3957000" />
       <workItem from="1666536434993" duration="8152000" />
       <workItem from="1666545745663" duration="8252000" />
-      <workItem from="1666575143148" duration="3288000" />
+      <workItem from="1666575143148" duration="3595000" />
     </task>
     <task id="LOCAL-00001" summary="Autowired 005">
       <created>1663093203708</created>
@@ -463,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666577003168</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="spring-11">
+      <created>1666581059604</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1666581059604</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,7 +495,8 @@
     <MESSAGE value="Spring  Thymeleaf" />
     <MESSAGE value="Spring  Data" />
     <MESSAGE value="application.properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="application.properties" />
+    <MESSAGE value="spring-11" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring-11" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
