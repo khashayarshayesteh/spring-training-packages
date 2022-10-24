@@ -3,7 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.38">
     <root id="1">
       <DateStyle>mdy</DateStyle>
-      <IntrospectionStateNumber>3447</IntrospectionStateNumber>
+      <IntrospectionStateNumber>3525</IntrospectionStateNumber>
       <ServerVersion>14.5</ServerVersion>
       <StartupTime>1666363931</StartupTime>
       <TimeZones>true ACDT
@@ -805,9 +805,11 @@ false Zulu
 13388||10|C|G
 13388||-9223372036854775808|U|G
 13388||10|U|G</Grants>
-      <IntrospectionStateNumber>3447</IntrospectionStateNumber>
+      <IntrospectionStateNumber>3525</IntrospectionStateNumber>
       <ObjectId>13754</ObjectId>
-      <Relations>sequence|table|41338|41339|1
+      <Relations>sequence|table|41444|41445|1
+sequence|table|41425|41426|1
+sequence|table|41432|41433|1
 </Relations>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -4235,209 +4237,247 @@ false Zulu
     </schema>
     <schema id="264" parent="4" name="public">
       <Current>1</Current>
-      <IntrospectionStateNumber>3447</IntrospectionStateNumber>
+      <IntrospectionStateNumber>3525</IntrospectionStateNumber>
       <ObjectId>41028</ObjectId>
       <StateNumber>3316</StateNumber>
       <OwnerName>postgres</OwnerName>
     </schema>
-    <sequence id="265" parent="264" name="students_id_seq">
+    <sequence id="265" parent="264" name="credit_account_id_seq">
       <DataType>bigint|0s</DataType>
-      <ObjectId>41338</ObjectId>
-      <StateNumber>3468</StateNumber>
+      <ObjectId>41425</ObjectId>
+      <StateNumber>3521</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
-    <table id="266" parent="264" name="employee">
-      <ObjectId>41333</ObjectId>
-      <StateNumber>3467</StateNumber>
+    <sequence id="266" parent="264" name="debit_account_id_seq">
+      <DataType>bigint|0s</DataType>
+      <ObjectId>41432</ObjectId>
+      <StateNumber>3522</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <sequence id="267" parent="264" name="students_id_seq">
+      <DataType>bigint|0s</DataType>
+      <ObjectId>41444</ObjectId>
+      <StateNumber>3524</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <table id="268" parent="264" name="credit_account">
+      <ObjectId>41426</ObjectId>
+      <StateNumber>3521</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="267" parent="264" name="employees">
-      <ObjectId>41285</ObjectId>
-      <StateNumber>3443</StateNumber>
+    <table id="269" parent="264" name="debit_account">
+      <ObjectId>41433</ObjectId>
+      <StateNumber>3522</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="268" parent="264" name="student">
-      <ObjectId>41110</ObjectId>
-      <StateNumber>3364</StateNumber>
+    <table id="270" parent="264" name="employee">
+      <ObjectId>41439</ObjectId>
+      <StateNumber>3523</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="269" parent="264" name="students">
-      <ObjectId>41339</ObjectId>
-      <StateNumber>3468</StateNumber>
+    <table id="271" parent="264" name="students">
+      <ObjectId>41445</ObjectId>
+      <StateNumber>3524</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <column id="270" parent="266" name="id">
+    <column id="272" parent="268" name="id">
+      <DataType>bigint|0s</DataType>
+      <DefaultExpression>nextval(&apos;credit_account_id_seq&apos;::regclass)</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>3521</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="273" parent="268" name="balance">
+      <DataType>numeric(19,2 digit)|0s</DataType>
+      <Position>2</Position>
+      <StateNumber>3521</StateNumber>
+      <TypeId>1700</TypeId>
+    </column>
+    <column id="274" parent="268" name="interest_rate">
+      <DataType>numeric(19,2 digit)|0s</DataType>
+      <Position>3</Position>
+      <StateNumber>3521</StateNumber>
+      <TypeId>1700</TypeId>
+    </column>
+    <column id="275" parent="268" name="owner">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>4</Position>
+      <StateNumber>3521</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="276" parent="268" name="credit_limit">
+      <DataType>numeric(19,2 digit)|0s</DataType>
+      <Position>5</Position>
+      <StateNumber>3521</StateNumber>
+      <TypeId>1700</TypeId>
+    </column>
+    <index id="277" parent="268" name="credit_account_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>41430</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>3521</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="278" parent="268" name="credit_account_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>41431</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>3521</StateNumber>
+      <UnderlyingIndexId>41430</UnderlyingIndexId>
+    </key>
+    <column id="279" parent="269" name="id">
+      <DataType>bigint|0s</DataType>
+      <DefaultExpression>nextval(&apos;debit_account_id_seq&apos;::regclass)</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>3522</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="280" parent="269" name="balance">
+      <DataType>numeric(19,2 digit)|0s</DataType>
+      <Position>2</Position>
+      <StateNumber>3522</StateNumber>
+      <TypeId>1700</TypeId>
+    </column>
+    <column id="281" parent="269" name="interest_rate">
+      <DataType>numeric(19,2 digit)|0s</DataType>
+      <Position>3</Position>
+      <StateNumber>3522</StateNumber>
+      <TypeId>1700</TypeId>
+    </column>
+    <column id="282" parent="269" name="owner">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>4</Position>
+      <StateNumber>3522</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="283" parent="269" name="over_draft_fee">
+      <DataType>numeric(19,2 digit)|0s</DataType>
+      <Position>5</Position>
+      <StateNumber>3522</StateNumber>
+      <TypeId>1700</TypeId>
+    </column>
+    <index id="284" parent="269" name="debit_account_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>41437</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>3522</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="285" parent="269" name="debit_account_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>41438</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>3522</StateNumber>
+      <UnderlyingIndexId>41437</UnderlyingIndexId>
+    </key>
+    <column id="286" parent="270" name="id">
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>3467</StateNumber>
+      <StateNumber>3523</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="271" parent="266" name="name">
+    <column id="287" parent="270" name="name">
       <DataType>varchar(255)|0s</DataType>
       <Position>2</Position>
-      <StateNumber>3467</StateNumber>
+      <StateNumber>3523</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="272" parent="266" name="employee_pkey">
+    <index id="288" parent="270" name="employee_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>41336</ObjectId>
+      <ObjectId>41442</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>3467</StateNumber>
+      <StateNumber>3523</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="273" parent="266" name="employee_pkey">
+    <key id="289" parent="270" name="employee_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>41337</ObjectId>
+      <ObjectId>41443</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>3467</StateNumber>
-      <UnderlyingIndexId>41336</UnderlyingIndexId>
+      <StateNumber>3523</StateNumber>
+      <UnderlyingIndexId>41442</UnderlyingIndexId>
     </key>
-    <column id="274" parent="267" name="id">
-      <DataType>bigint|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StateNumber>3443</StateNumber>
-      <TypeId>20</TypeId>
-    </column>
-    <column id="275" parent="267" name="name">
-      <DataType>varchar(255)|0s</DataType>
-      <Position>2</Position>
-      <StateNumber>3443</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <index id="276" parent="267" name="employees_pkey">
-      <ColNames>id</ColNames>
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>41288</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>3443</StateNumber>
-      <Unique>1</Unique>
-      <AccessMethodId>403</AccessMethodId>
-    </index>
-    <key id="277" parent="267" name="employees_pkey">
-      <ColNames>id</ColNames>
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>41289</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>3443</StateNumber>
-      <UnderlyingIndexId>41288</UnderlyingIndexId>
-    </key>
-    <column id="278" parent="268" name="id">
-      <DataType>bigint|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StateNumber>3364</StateNumber>
-      <TypeId>20</TypeId>
-    </column>
-    <column id="279" parent="268" name="email">
-      <DataType>varchar(255)|0s</DataType>
-      <Position>2</Position>
-      <StateNumber>3364</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="280" parent="268" name="first_name">
-      <DataType>varchar(255)|0s</DataType>
-      <Position>3</Position>
-      <StateNumber>3364</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="281" parent="268" name="last_name">
-      <DataType>varchar(255)|0s</DataType>
-      <Position>4</Position>
-      <StateNumber>3364</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <index id="282" parent="268" name="student_pkey">
-      <ColNames>id</ColNames>
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>41115</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>3364</StateNumber>
-      <Unique>1</Unique>
-      <AccessMethodId>403</AccessMethodId>
-    </index>
-    <key id="283" parent="268" name="student_pkey">
-      <ColNames>id</ColNames>
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>41116</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>3364</StateNumber>
-      <UnderlyingIndexId>41115</UnderlyingIndexId>
-    </key>
-    <column id="284" parent="269" name="id">
+    <column id="290" parent="271" name="id">
       <DataType>bigint|0s</DataType>
       <DefaultExpression>nextval(&apos;students_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>3468</StateNumber>
+      <StateNumber>3524</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="285" parent="269" name="birth_date">
+    <column id="291" parent="271" name="birth_date">
       <DataType>date|0s</DataType>
       <Position>2</Position>
-      <StateNumber>3468</StateNumber>
+      <StateNumber>3524</StateNumber>
       <TypeId>1082</TypeId>
     </column>
-    <column id="286" parent="269" name="birth_date_time">
+    <column id="292" parent="271" name="birth_date_time">
       <DataType>timestamp|0s</DataType>
       <Position>3</Position>
-      <StateNumber>3468</StateNumber>
+      <StateNumber>3524</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="287" parent="269" name="birth_time">
+    <column id="293" parent="271" name="birth_time">
       <DataType>time|0s</DataType>
       <Position>4</Position>
-      <StateNumber>3468</StateNumber>
+      <StateNumber>3524</StateNumber>
       <TypeId>1083</TypeId>
     </column>
-    <column id="288" parent="269" name="email">
+    <column id="294" parent="271" name="email">
       <DataType>varchar(255)|0s</DataType>
       <Position>5</Position>
-      <StateNumber>3468</StateNumber>
+      <StateNumber>3524</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="289" parent="269" name="student_first_name">
+    <column id="295" parent="271" name="student_first_name">
       <DataType>varchar(255)|0s</DataType>
       <Position>6</Position>
-      <StateNumber>3468</StateNumber>
+      <StateNumber>3524</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="290" parent="269" name="gender">
+    <column id="296" parent="271" name="gender">
       <DataType>varchar(255)|0s</DataType>
       <Position>7</Position>
-      <StateNumber>3468</StateNumber>
+      <StateNumber>3524</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="291" parent="269" name="student_last_name">
+    <column id="297" parent="271" name="student_last_name">
       <DataType>varchar(255)|0s</DataType>
       <Position>8</Position>
-      <StateNumber>3468</StateNumber>
+      <StateNumber>3524</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="292" parent="269" name="students_pkey">
+    <index id="298" parent="271" name="students_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>41345</ObjectId>
+      <ObjectId>41451</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>3468</StateNumber>
+      <StateNumber>3524</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="293" parent="269" name="students_pkey">
+    <key id="299" parent="271" name="students_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>41346</ObjectId>
+      <ObjectId>41452</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>3468</StateNumber>
-      <UnderlyingIndexId>41345</UnderlyingIndexId>
+      <StateNumber>3524</StateNumber>
+      <UnderlyingIndexId>41451</UnderlyingIndexId>
     </key>
   </database-model>
 </dataSource>
