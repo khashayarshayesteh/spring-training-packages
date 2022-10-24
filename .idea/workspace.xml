@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="spring-11">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/cydeo/boostsrap/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/cydeo/boostsrap/DataGenerator.java" afterDir="false" />
-    </list>
+    <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="spring-11" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -216,7 +213,7 @@
       <workItem from="1666412350392" duration="3957000" />
       <workItem from="1666536434993" duration="8152000" />
       <workItem from="1666545745663" duration="8252000" />
-      <workItem from="1666575143148" duration="11177000" />
+      <workItem from="1666575143148" duration="11578000" />
     </task>
     <task id="LOCAL-00001" summary="Autowired 005">
       <created>1663093203708</created>
@@ -526,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666589333654</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="spring-11">
+      <created>1666591106075</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1666591106075</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
