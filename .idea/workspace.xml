@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="spring-11">
-      <change afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/cydeo/entity/CreditAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/cydeo/entity/DebitAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/cydeo/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/cydeo/entity/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/resources/schema.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +218,7 @@
       <workItem from="1666412350392" duration="3957000" />
       <workItem from="1666536434993" duration="8152000" />
       <workItem from="1666545745663" duration="8252000" />
-      <workItem from="1666575143148" duration="3595000" />
+      <workItem from="1666575143148" duration="4253000" />
     </task>
     <task id="LOCAL-00001" summary="Autowired 005">
       <created>1663093203708</created>
@@ -470,7 +472,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666581059604</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="spring-11">
+      <created>1666581254828</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1666581254828</updated>
+    </task>
+    <task id="LOCAL-00038" summary="spring-11">
+      <created>1666581467817</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1666581467817</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
