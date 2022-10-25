@@ -20,7 +20,7 @@ public class DataGenerator implements CommandLineRunner {
     private final MerchantRepository merchantRepository;
 
     private final CartRepository cartRepository;
-    private.final ItemRepository itemRepository;
+    private final ItemRepository itemRepository;
 
     public DataGenerator(PaymentRepository paymentRepository, MerchantRepository merchantRepository, CartRepository cartRepository, ItemRepository itemRepository) {
         this.paymentRepository = paymentRepository;
@@ -64,9 +64,13 @@ public class DataGenerator implements CommandLineRunner {
         cart1.setItemList(Arrays.asList(item1,item2,item3));
         cart2.setItemList(Arrays.asList(item1,item2));
 
+        itemRepository.save(item1);
+        itemRepository.save(item2);
+        itemRepository.save(item3);
 
 
-
+        cartRepository.save(cart1);
+        cartRepository.save(cart2);
 
 
         merchantRepository.save(merchant1);
@@ -74,15 +78,9 @@ public class DataGenerator implements CommandLineRunner {
         paymentRepository.save(payment1);
         paymentRepository.save(payment2);
 
-        cartRepository.save(c);
-        itemRepository.save();
+        // System.out.println(paymentRepository.findById(2L).get().getPaymentDetail().getCommissionAmount());
 
-
-
-
-        System.out.println(paymentRepository.findById(2L).get().getPaymentDetail().getCommissionAmount());
-
-        paymentRepository.delete(payment1);
+        //paymentRepository.delete(payment1);
 
 
 

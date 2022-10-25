@@ -20,8 +20,10 @@ public class Item {
     private String code;
 
 
-    @ManyToMany(mappedBy = "itemsList")
+    @ManyToMany(mappedBy = "itemList")
     private List<Cart> carts;
+
+
 
 
     public Item(String name, String code) {
