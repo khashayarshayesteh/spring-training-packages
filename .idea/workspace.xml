@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="Table relationship">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/cydeo/bootstrap/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/cydeo/bootstrap/DataGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +224,7 @@
       <workItem from="1666545745663" duration="8252000" />
       <workItem from="1666575143148" duration="11913000" />
       <workItem from="1666623400488" duration="13546000" />
-      <workItem from="1666671106735" duration="4099000" />
+      <workItem from="1666671106735" duration="5048000" />
     </task>
     <task id="LOCAL-00001" summary="Autowired 005">
       <created>1663093203708</created>
@@ -563,7 +562,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666685713362</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Table relationship">
+      <created>1666686534736</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1666686534736</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
