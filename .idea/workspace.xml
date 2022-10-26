@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="CinemaLab" />
+    <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="CinemaLab">
+      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/resources/db/migration/V1.0.1__insertdata.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -231,14 +233,7 @@
       <workItem from="1666623400488" duration="13546000" />
       <workItem from="1666671106735" duration="5048000" />
       <workItem from="1666709828649" duration="734000" />
-      <workItem from="1666748065185" duration="11793000" />
-    </task>
-    <task id="LOCAL-00009" summary="Spring  Thymeleaf">
-      <created>1664157654161</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1664157654161</updated>
+      <workItem from="1666748065185" duration="12135000" />
     </task>
     <task id="LOCAL-00010" summary="Spring  Thymeleaf">
       <created>1664163028819</created>
@@ -576,7 +571,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666763769461</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="CinemaLab">
+      <created>1666763966478</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1666763966478</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
