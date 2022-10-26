@@ -4,6 +4,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
+import java.math.BigDecimal;
 
 @Entity
 @Data
@@ -11,6 +12,14 @@ import javax.persistence.Entity;
 public class Location extends BaseEntity{
 
 
+    private String name;
+    private BigDecimal latitude;
+    private BigDecimal longitude;
+    private String postalCode;
+    private String country;
+    private String State;
+    private String city;
+    private String address;
 
 
 
