@@ -165,6 +165,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring13DataCinemaLabApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-13-Data-CinemaLab" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring13DataCinemaLabApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Spring11DataTableCreationApplication" />
@@ -225,13 +232,8 @@
       <workItem from="1666575143148" duration="11913000" />
       <workItem from="1666623400488" duration="13546000" />
       <workItem from="1666671106735" duration="5048000" />
-    </task>
-    <task id="LOCAL-00001" summary="Autowired 005">
-      <created>1663093203708</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1663093203708</updated>
+      <workItem from="1666709828649" duration="734000" />
+      <workItem from="1666748065185" duration="503000" />
     </task>
     <task id="LOCAL-00002" summary="Autowired 005">
       <created>1663095445559</created>
@@ -569,7 +571,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666686534736</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Table relationship">
+      <created>1666709931870</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1666709931872</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
