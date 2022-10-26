@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="CinemaLab">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/java/com/cydeo/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/java/com/cydeo/entity/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/java/com/cydeo/entity/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/java/com/cydeo/entity/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLab/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLab/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/java/com/cydeo/Spring13DataCinemaLabApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/java/com/cydeo/Spring13DataCinemaLabApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,14 +236,7 @@
       <workItem from="1666623400488" duration="13546000" />
       <workItem from="1666671106735" duration="5048000" />
       <workItem from="1666709828649" duration="734000" />
-      <workItem from="1666748065185" duration="9901000" />
-    </task>
-    <task id="LOCAL-00007" summary="Spring  Thymeleaf">
-      <created>1664147700097</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1664147700097</updated>
+      <workItem from="1666748065185" duration="11344000" />
     </task>
     <task id="LOCAL-00008" summary="Spring  Thymeleaf">
       <created>1664151024370</created>
@@ -580,7 +574,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666761087546</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="CinemaLab">
+      <created>1666762056953</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1666762056953</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
