@@ -14,6 +14,6 @@ import javax.persistence.Table;
 public class Department {
 
     @Id
-    private String Department;
-    public String Division;
+    private String department;
+    public String division;
 }

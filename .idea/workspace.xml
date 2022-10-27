@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="spring-14">
-      <change afterPath="$PROJECT_DIR$/spring-14-Data-Queries/src/main/java/com/cydeo/QueryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-14-Data-Queries/src/main/java/com/cydeo/repository/RegionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-14-Data-Queries/src/main/java/com/cydeo/repository/DepartmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-14-Data-Queries/src/main/java/com/cydeo/QueryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-14-Data-Queries/src/main/java/com/cydeo/QueryDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-14-Data-Queries/src/main/java/com/cydeo/entity/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-14-Data-Queries/src/main/java/com/cydeo/entity/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-14-Data-Queries/src/main/java/com/cydeo/entity/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-14-Data-Queries/src/main/java/com/cydeo/entity/Region.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-14-Data-Queries/src/main/java/com/cydeo/repository/RegionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-14-Data-Queries/src/main/java/com/cydeo/repository/RegionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-14-Data-Queries/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-14-Data-Queries/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +24,8 @@
         <option value="HTML File" />
         <option value="spring-beans.schema" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -249,14 +254,7 @@
       <workItem from="1666748065185" duration="19033000" />
       <workItem from="1666771375874" duration="483000" />
       <workItem from="1666796208351" duration="1684000" />
-      <workItem from="1666882384645" duration="4791000" />
-    </task>
-    <task id="LOCAL-00016" summary="Spring  Thymeleaf">
-      <created>1664172942826</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1664172942826</updated>
+      <workItem from="1666882384645" duration="7579000" />
     </task>
     <task id="LOCAL-00017" summary="Spring  Thymeleaf">
       <created>1664174574280</created>
@@ -594,7 +592,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666886828498</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="spring-14">
+      <created>1666887954114</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1666887954114</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
