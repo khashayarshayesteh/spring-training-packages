@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="CinemaLab">
+    <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="spring-14">
+      <change afterPath="$PROJECT_DIR$/spring-14-Data-Queries/src/main/java/com/cydeo/Spring14DataQueriesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-14-Data-Queries/src/main/java/com/cydeo/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-14-Data-Queries/src/main/java/com/cydeo/entity/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-14-Data-Queries/src/main/java/com/cydeo/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-14-Data-Queries/src/main/java/com/cydeo/entity/Region.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-14-Data-Queries/src/main/java/com/cydeo/enums/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-14-Data-Queries/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-14-Data-Queries/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7b49fec9-f6a6-4779-8227-39b8aa76a18f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7b49fec9-f6a6-4779-8227-39b8aa76a18f.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7b49fec9-f6a6-4779-8227-39b8aa76a18f/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7b49fec9-f6a6-4779-8227-39b8aa76a18f/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLab/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLab/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLab/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/java/com/cydeo/Spring13DataCinemaLabApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/java/com/cydeo/Spring13DataCinemaLabApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +30,9 @@
       <list>
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="Class" />
-        <option value="Enum" />
         <option value="spring-beans.schema" />
+        <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -75,7 +81,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/soly/IdeaProjects/spring-training-packages/spring-10-Thymeleaf/src/main/resources/static",
+    "last_opened_file_path": "C:/Users/soly/IdeaProjects/spring-training-packages/spring-14-Data-Queries/src/main/resources",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -93,6 +99,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-14-Data-Queries\src\main\resources" />
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-10-Thymeleaf\src\main\resources\static" />
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-07-SpringBoot-Demo\src\main\java\com\cydeo" />
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-06-Core-BeanScope\src\main\java\com\cydeo" />
@@ -105,7 +112,7 @@
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-09-MVC-Model\src\main\resources\templates\mentor" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring13DataCinemaLabApplication">
+  <component name="RunManager" selected="Spring Boot.Spring14DataQueriesApplication">
     <configuration name="CommentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.CommentApp" />
       <module name="spring-05-Core-Abstraction" />
@@ -183,6 +190,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring14DataQueriesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-14-Data-Queries" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring14DataQueriesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Spring11DataTableCreationApplication" />
@@ -245,14 +259,9 @@
       <workItem from="1666671106735" duration="5048000" />
       <workItem from="1666709828649" duration="734000" />
       <workItem from="1666748065185" duration="19033000" />
-      <workItem from="1666771375874" duration="400000" />
-    </task>
-    <task id="LOCAL-00014" summary="Spring  Thymeleaf">
-      <created>1664169327854</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1664169327854</updated>
+      <workItem from="1666771375874" duration="483000" />
+      <workItem from="1666796208351" duration="1684000" />
+      <workItem from="1666882384645" duration="3727000" />
     </task>
     <task id="LOCAL-00015" summary="Spring  Thymeleaf">
       <created>1664169409276</created>
@@ -590,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666769124745</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="CinemaLab">
+      <created>1666771848778</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1666771848779</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -618,7 +634,8 @@
     <MESSAGE value="spring-11" />
     <MESSAGE value="Table relationship" />
     <MESSAGE value="CinemaLab" />
-    <option name="LAST_COMMIT_MESSAGE" value="CinemaLab" />
+    <MESSAGE value="spring-14" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring-14" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
