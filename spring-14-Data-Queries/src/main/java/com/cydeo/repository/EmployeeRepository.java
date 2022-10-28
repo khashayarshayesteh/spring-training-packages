@@ -14,7 +14,7 @@ public interface EmployeeRepository extends JpaRepository<Employee,Integer> {
 
     List<Employee> findTopByEmail(String email);
 
-    // Display all employyeeys with firstname "" and lastname "" , also show all employees with an email address ""
+    // Display all employees with firstname "" and lastname "" , also show all employees with an email address ""
 
     List<Employee> findByFirstNameAndLastNameOrEmail(String firstname,String lastname,String email);
 
@@ -50,10 +50,10 @@ public interface EmployeeRepository extends JpaRepository<Employee,Integer> {
     List<Employee> findByEmailIsNull();
 
     // JPQL
-    @Query("Select employee  FROM Employee employee WHERE employee.email='")
+    @Query("Select employee  FROM Employee employee WHERE employee.email='amcnee1@google.es'")
     Employee retrieveEmployeeDetail();
 
-    @Query("SELECT e")
+    @Query("SELECT e.salary FROM Employee e WHERE e.email='amcnee1@google.es'")
     Employee retrieveEmployeeSalary();
 
 
