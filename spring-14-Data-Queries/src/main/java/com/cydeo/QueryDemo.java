@@ -24,6 +24,7 @@ public class QueryDemo implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
+
         System.out.println("-----------REGIONS-----------");
 
         System.out.println("findByCountry:" + regionRepository.findByCountry("Canada"));
@@ -37,6 +38,9 @@ public class QueryDemo implements CommandLineRunner {
         System.out.println("findByDivision:" + departmentRepository.findByDivision("Health"));
         System.out.println("findByDivisionEndsWith:" + departmentRepository.findByDivisionEndsWith("ics"));
         System.out.println("findDistinctTop3ByDivisionContains:" + departmentRepository.findDistinctTop3ByDivisionContains("Hea"));
+
+        System.out.println("-----------EMPLOYEES----------");
+        System.out.println(employeeRepository.retrieveEmployeeDetail());
     }
 }
 
