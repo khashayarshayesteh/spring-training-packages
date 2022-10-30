@@ -7,8 +7,6 @@ import java.util.List;
 
 public interface RegionRepository extends JpaRepository<Region,Integer> {
 
-
-
     //Display all regions in Canada
     List<Region> findByCountry(String country);
     List<Region> getByCountry(String country);
@@ -24,7 +22,6 @@ public interface RegionRepository extends JpaRepository<Region,Integer> {
     List<Region> findTop2ByCountry(String country);
 
     List<Region> findTopByCountryContainsOrderByRegion(String country);
-
 
 
 
