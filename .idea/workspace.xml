@@ -4,12 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="spring-14">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release3.xml" afterDir="false" />
+    <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="spring-15">
+      <change afterPath="$PROJECT_DIR$/spring-15-REST/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/Spring16RestJacksonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/dto/AccountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/enums/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/util/MapperUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/cydeo/Spring15RestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/cydeo/Spring15RestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-15-REST/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-15-REST/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +90,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/soly/IdeaProjects/spring-training-packages/spring-13-Data-CinemaLab/src/main/java/com/cydeo",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/soly/IdeaProjects/spring-training-packages/spring-16-REST-Jackson/src/main/java",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -90,11 +109,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-15-REST\src\main\resources" />
+      <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-15-REST\src\main\java\com\cydeo" />
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-13-Data-CinemaLab\src\main\java\com\cydeo" />
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-14-Data-Queries\src\main\resources" />
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-10-Thymeleaf\src\main\resources\static" />
-      <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-07-SpringBoot-Demo\src\main\java\com\cydeo" />
-      <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-06-Core-BeanScope\src\main\java\com\cydeo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-13-Data-CinemaLab\src\main\resources" />
@@ -103,8 +122,14 @@
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-10-Thymeleaf\src\main\resources\static" />
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-09-MVC-Model\src\main\resources\templates\mentor" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cydeo.util" />
+      <recent name="com.cydeo.repository" />
+      <recent name="com.cydeo.entity" />
+      <recent name="com.cydeo.dto" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring13DataCinemaLabApplication">
+  <component name="RunManager" selected="Spring Boot.Spring15RestApplication">
     <configuration name="CommentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.CommentApp" />
       <module name="spring-05-Core-Abstraction" />
@@ -189,6 +214,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring15RestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-15-REST" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring15RestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring16RestJacksonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-16-REST-Jackson" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring16RestJacksonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Spring11DataTableCreationApplication" />
@@ -259,21 +298,9 @@
       <workItem from="1667075024190" duration="6013000" />
       <workItem from="1667174757092" duration="14345000" />
       <workItem from="1667240173592" duration="28000" />
-      <workItem from="1669551953947" duration="628000" />
-    </task>
-    <task id="LOCAL-00025" summary="Spring  Thymeleaf">
-      <created>1665982235626</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1665982235626</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Spring  Thymeleaf">
-      <created>1665983667156</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1665983667156</updated>
+      <workItem from="1669551953947" duration="2819000" />
+      <workItem from="1669554806845" duration="1306000" />
+      <workItem from="1669558839015" duration="1691000" />
     </task>
     <task id="LOCAL-00027" summary="Spring  Thymeleaf">
       <created>1665985697340</created>
@@ -604,7 +631,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669552030777</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="spring-15">
+      <created>1669552981102</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1669552981102</updated>
+    </task>
+    <task id="LOCAL-00075" summary="spring-15">
+      <created>1669553738638</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1669553738638</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -633,7 +674,8 @@
     <MESSAGE value="Table relationship" />
     <MESSAGE value="CinemaLab" />
     <MESSAGE value="spring-14" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring-14" />
+    <MESSAGE value="spring-15" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring-15" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
