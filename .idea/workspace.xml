@@ -5,25 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="spring-14">
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/java/com/cydeo/QueryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/java/com/cydeo/repository/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/java/com/cydeo/repository/CinemaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/java/com/cydeo/repository/GenreRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/java/com/cydeo/repository/MovieCinemaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/java/com/cydeo/repository/MovieRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/java/com/cydeo/repository/TicketRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/java/com/cydeo/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7b49fec9-f6a6-4779-8227-39b8aa76a18f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7b49fec9-f6a6-4779-8227-39b8aa76a18f.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7b49fec9-f6a6-4779-8227-39b8aa76a18f/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7b49fec9-f6a6-4779-8227-39b8aa76a18f/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/java/com/cydeo/entity/Cinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/java/com/cydeo/entity/Cinema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/java/com/cydeo/entity/MovieCinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/java/com/cydeo/entity/MovieCinema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/java/com/cydeo/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/java/com/cydeo/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLab/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLab/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLab/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLab/target/classes/com/cydeo/entity/Cinema.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLab/target/classes/com/cydeo/entity/Cinema.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLab/target/classes/com/cydeo/entity/MovieCinema.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLab/target/classes/com/cydeo/entity/MovieCinema.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLab/target/classes/com/cydeo/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLab/target/classes/com/cydeo/entity/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,34 +60,34 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/soly/IdeaProjects/spring-training-packages/spring-13-Data-CinemaLab/src/main/java/com/cydeo&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;show.run.dashboard.notification&quot;: &quot;false&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;ae67eb9c99e984f0d9b9d65f2a76bbda&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/soly/IdeaProjects/spring-training-packages/spring-08-MVC-Controller/src/main/java/com/cydeo/cydeoApplication&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/soly/IdeaProjects/spring-training-packages/spring-13-Data-CinemaLab/src/main/java/com/cydeo",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "show.run.dashboard.notification": "false",
+    "spring.configuration.checksum": "ae67eb9c99e984f0d9b9d65f2a76bbda",
+    "two.files.diff.last.used.file": "C:/Users/soly/IdeaProjects/spring-training-packages/spring-08-MVC-Controller/src/main/java/com/cydeo/cydeoApplication"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-13-Data-CinemaLab\src\main\java\com\cydeo" />
@@ -273,20 +259,7 @@
       <workItem from="1667075024190" duration="6013000" />
       <workItem from="1667174757092" duration="14345000" />
       <workItem from="1667240173592" duration="28000" />
-    </task>
-    <task id="LOCAL-00023" summary="Spring  Thymeleaf">
-      <created>1665978715402</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1665978715402</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Spring  Thymeleaf">
-      <created>1665981651546</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1665981651546</updated>
+      <workItem from="1669551953947" duration="628000" />
     </task>
     <task id="LOCAL-00025" summary="Spring  Thymeleaf">
       <created>1665982235626</created>
@@ -617,7 +590,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667111537750</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="spring-14">
+      <created>1669552011856</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1669552011857</updated>
+    </task>
+    <task id="LOCAL-00073" summary="spring-14">
+      <created>1669552030777</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1669552030777</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
