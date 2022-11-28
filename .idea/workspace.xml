@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="spring-15">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7b49fec9-f6a6-4779-8227-39b8aa76a18f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7b49fec9-f6a6-4779-8227-39b8aa76a18f.xml" afterDir="false" />
+    <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="spring-17">
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/controller/Consume_RestTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/dto/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/dto/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/dto/Geo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/dto/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/cydeo/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/cydeo/controller/CourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/cydeo/controller/CourseController_ResponseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/cydeo/controller/CourseController_ResponseEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,41 +64,41 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/soly/IdeaProjects/spring-training-packages/spring-16-REST-Jackson/src/main/java&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;show.run.dashboard.notification&quot;: &quot;false&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;ae67eb9c99e984f0d9b9d65f2a76bbda&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/soly/IdeaProjects/spring-training-packages/spring-08-MVC-Controller/src/main/java/com/cydeo/cydeoApplication&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/soly/IdeaProjects/spring-training-packages/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/DTO",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "show.run.dashboard.notification": "false",
+    "spring.configuration.checksum": "ae67eb9c99e984f0d9b9d65f2a76bbda",
+    "two.files.diff.last.used.file": "C:/Users/soly/IdeaProjects/spring-training-packages/spring-08-MVC-Controller/src/main/java/com/cydeo/cydeoApplication"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-17-REST-ConsumingAPIS\src\main\java\com\cydeo\DTO" />
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-16-REST-Jackson\src\main\java" />
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-16-REST-Jackson\src\main\java\com" />
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-15-REST\src\main\resources" />
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-15-REST\src\main\java\com\cydeo" />
-      <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-13-Data-CinemaLab\src\main\java\com\cydeo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-13-Data-CinemaLab\src\main\resources" />
@@ -110,7 +115,7 @@
       <recent name="com.cydeo.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring15RestApplication">
+  <component name="RunManager" selected="Spring Boot.Spring17RestConsumingApisApplication">
     <configuration name="CommentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.CommentApp" />
       <module name="spring-05-Core-Abstraction" />
@@ -209,6 +214,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring17RestConsumingApisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-17-REST-ConsumingAPIS" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring17RestConsumingApisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Spring11DataTableCreationApplication" />
@@ -282,21 +294,7 @@
       <workItem from="1669551953947" duration="2819000" />
       <workItem from="1669554806845" duration="1306000" />
       <workItem from="1669558839015" duration="11376000" />
-      <workItem from="1669609043726" duration="6772000" />
-    </task>
-    <task id="LOCAL-00035" summary="application.properties">
-      <created>1666577003168</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1666577003168</updated>
-    </task>
-    <task id="LOCAL-00036" summary="spring-11">
-      <created>1666581059604</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1666581059604</updated>
+      <workItem from="1669609043726" duration="10031000" />
     </task>
     <task id="LOCAL-00037" summary="spring-11">
       <created>1666581254828</created>
@@ -627,7 +625,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669609231034</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="spring-15">
+      <created>1669654412170</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1669654412170</updated>
+    </task>
+    <task id="LOCAL-00085" summary="spring-17">
+      <created>1669654439883</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1669654439883</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -658,7 +670,8 @@
     <MESSAGE value="spring-14" />
     <MESSAGE value="spring-16" />
     <MESSAGE value="spring-15" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring-15" />
+    <MESSAGE value="spring-17" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring-17" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
