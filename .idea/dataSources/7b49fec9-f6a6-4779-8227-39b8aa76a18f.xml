@@ -807,6 +807,8 @@ false Zulu
 13388||10|U|G</Grants>
       <IntrospectionStateNumber>16007</IntrospectionStateNumber>
       <ObjectId>13754</ObjectId>
+      <Relations>sequence|table|116306|116307|1
+</Relations>
       <OwnerName>postgres</OwnerName>
     </database>
     <database id="5" parent="1" name="ticketing-app">
@@ -4282,29 +4284,90 @@ false Zulu
       <LanguageName>plpgsql</LanguageName>
       <OwnerName>postgres</OwnerName>
     </routine>
-    <argument id="270" parent="266">
+    <sequence id="270" parent="265" name="courses_id_seq">
+      <DataType>bigint|0s</DataType>
+      <ObjectId>116306</ObjectId>
+      <StateNumber>16029</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <table id="271" parent="265" name="courses">
+      <ObjectId>116307</ObjectId>
+      <StateNumber>16029</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <argument id="272" parent="266">
       <ArgumentDirection>R</ArgumentDirection>
       <DataType>integer|0s</DataType>
     </argument>
-    <argument id="271" parent="266" name="first_name">
+    <argument id="273" parent="266" name="first_name">
       <DataType>varchar|0s</DataType>
       <Position>1</Position>
     </argument>
-    <argument id="272" parent="267">
+    <argument id="274" parent="267">
       <ArgumentDirection>R</ArgumentDirection>
       <DataType>integer|0s</DataType>
     </argument>
-    <argument id="273" parent="267" name="job_name">
+    <argument id="275" parent="267" name="job_name">
       <DataType>varchar|0s</DataType>
       <Position>1</Position>
     </argument>
-    <argument id="274" parent="268">
+    <argument id="276" parent="268">
       <ArgumentDirection>R</ArgumentDirection>
       <DataType>trigger|0s</DataType>
     </argument>
-    <argument id="275" parent="269">
+    <argument id="277" parent="269">
       <ArgumentDirection>R</ArgumentDirection>
       <DataType>trigger|0s</DataType>
     </argument>
+    <column id="278" parent="271" name="id">
+      <DataType>bigint|0s</DataType>
+      <DefaultExpression>nextval(&apos;courses_id_seq&apos;::regclass)</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>16029</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="279" parent="271" name="category">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>2</Position>
+      <StateNumber>16029</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="280" parent="271" name="description">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>3</Position>
+      <StateNumber>16029</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="281" parent="271" name="name">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>4</Position>
+      <StateNumber>16029</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="282" parent="271" name="rating">
+      <DataType>integer|0s</DataType>
+      <Position>5</Position>
+      <StateNumber>16029</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="283" parent="271" name="courses_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>116313</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>16029</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="284" parent="271" name="courses_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>116314</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>16029</StateNumber>
+      <UnderlyingIndexId>116313</UnderlyingIndexId>
+    </key>
   </database-model>
 </dataSource>
