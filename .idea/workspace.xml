@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="spring-17">
-      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/controller/Consume_RestTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/dto/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/dto/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/dto/Geo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/dto/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/client/EmployeeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/client/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/controller/Consume_FeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/dto/Datum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/dto/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/dto/ResponseWrapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/Spring17RestConsumingApisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/Spring17RestConsumingApisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/controller/Consume_RestTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/controller/Consume_RestTemplate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +27,8 @@
         <option value="HTML File" />
         <option value="spring-beans.schema" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -108,11 +109,11 @@
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-09-MVC-Model\src\main\resources\templates\mentor" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cydeo.dto" />
       <recent name="com.cydeo.controller" />
       <recent name="com.cydeo.util" />
       <recent name="com.cydeo.repository" />
       <recent name="com.cydeo.entity" />
-      <recent name="com.cydeo.dto" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Spring17RestConsumingApisApplication">
@@ -294,14 +295,7 @@
       <workItem from="1669551953947" duration="2819000" />
       <workItem from="1669554806845" duration="1306000" />
       <workItem from="1669558839015" duration="11376000" />
-      <workItem from="1669609043726" duration="10031000" />
-    </task>
-    <task id="LOCAL-00037" summary="spring-11">
-      <created>1666581254828</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1666581254828</updated>
+      <workItem from="1669609043726" duration="15073000" />
     </task>
     <task id="LOCAL-00038" summary="spring-11">
       <created>1666581467817</created>
@@ -639,7 +633,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669654439883</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="spring-17">
+      <created>1669657811867</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1669657811867</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
