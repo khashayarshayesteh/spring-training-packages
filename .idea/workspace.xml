@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="spring-18">
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/controller/SchoolController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/cydeo/controller/CourseController_ResponseWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/cydeo/controller/CourseController_ResponseWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/cydeo/dto/ResponseWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/cydeo/dto/ResponseWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-16-REST-Jackson/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-16-REST-Jackson/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-16-REST-Jackson/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-16-REST-Jackson/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-16-REST-Jackson/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/dto/AccountDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/dto/AccountDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/entity/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/cydeo/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/dto/AddressDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/dto/AddressDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/dto/ParentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/dto/ParentDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/dto/StudentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/dto/StudentDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/dto/TeacherDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/dto/TeacherDTO.java" afterDir="false" />
-    </list>
+    <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="spring-18" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,7 +105,7 @@
       <recent name="com.cydeo.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring16RestJacksonApplication (1)">
+  <component name="RunManager" selected="Spring Boot.Spring18RestSchoolLabApplication">
     <configuration name="CommentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.CommentApp" />
       <module name="spring-05-Core-Abstraction" />
@@ -333,28 +309,7 @@
       <workItem from="1669695424863" duration="40000" />
       <workItem from="1669695476387" duration="884000" />
       <workItem from="1669699878631" duration="61000" />
-      <workItem from="1669700322834" duration="9893000" />
-    </task>
-    <task id="LOCAL-00043" summary="spring-11">
-      <created>1666587632523</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1666587632523</updated>
-    </task>
-    <task id="LOCAL-00044" summary="spring-11">
-      <created>1666589333654</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1666589333654</updated>
-    </task>
-    <task id="LOCAL-00045" summary="spring-11">
-      <created>1666591106075</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1666591106075</updated>
+      <workItem from="1669700322834" duration="11730000" />
     </task>
     <task id="LOCAL-00046" summary="spring-11">
       <created>1666591263030</created>
@@ -678,7 +633,28 @@
       <option name="project" value="LOCAL" />
       <updated>1669695521010</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="spring-18">
+      <created>1669742284058</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1669742284059</updated>
+    </task>
+    <task id="LOCAL-00093" summary="spring-18">
+      <created>1669742924016</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1669742924016</updated>
+    </task>
+    <task id="LOCAL-00094" summary="spring-18">
+      <created>1669742935450</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1669742935450</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
