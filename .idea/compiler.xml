@@ -10,7 +10,6 @@
         <module name="spring-10-Thymeleaf" />
         <module name="spring-13-Data-CinemaLab" />
         <module name="spring-11-Data-TableCreation" />
-        <module name="spring-17-REST-ConsumingAPIS" />
         <module name="spring-03-Wiring" />
         <module name="spring-16-REST-Jackson" />
         <module name="spring-01-Core-IoC-Bean-Annotation" />
@@ -30,6 +29,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-08-MVC-controller" target="11" />
+      <module name="spring-17-REST-ConsumingAPIS" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -46,6 +46,7 @@
       <module name="spring-15-REST" options="-parameters" />
       <module name="spring-16-REST-Jackson" options="-parameters" />
       <module name="spring-17-REST-ConsumingAPIS" options="-parameters" />
+      <module name="spring-17-REST-ConsumingApis" options="-parameters" />
       <module name="spring-18-REST-SchoolLab" options="-parameters" />
     </option>
   </component>
