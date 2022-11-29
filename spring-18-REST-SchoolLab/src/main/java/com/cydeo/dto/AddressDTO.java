@@ -27,6 +27,7 @@ public class AddressDTO {
     private String city;
     private String postalCode;
 
+
     private AddressType addressType;
 
     @JsonBackReference(value = "student-address-reference")                                //defaultReference
