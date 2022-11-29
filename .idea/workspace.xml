@@ -5,16 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="spring-17">
-      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/client/EmployeeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/client/UserClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/controller/Consume_FeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/dto/Datum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/dto/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/dto/ResponseWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/Spring18RestSchoolLabApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/dto/AddressDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/dto/ClassDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/dto/CourseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/dto/ParentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/dto/StudentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/dto/TeacherDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/entity/Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/entity/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/entity/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/enums/AddressType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/enums/EducationLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/enums/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/repository/AddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/repository/ClassRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/repository/CourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/repository/ParentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/repository/TeacherRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/service/AddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/service/ClassService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/service/ParentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/service/TeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/service/impl/AddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/service/impl/ClassServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/service/impl/ParentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/service/impl/TeacherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/util/MapperUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/test/java/com/cydeo/Spring18RestSchoolLabApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/Spring17RestConsumingApisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/Spring17RestConsumingApisApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/controller/Consume_RestTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/controller/Consume_RestTemplate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +108,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/soly/IdeaProjects/spring-training-packages/spring-17-REST-ConsumingAPIS/src/main/java/com/cydeo/DTO",
+    "last_opened_file_path": "C:/Users/soly/IdeaProjects/spring-training-packages",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -95,11 +126,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\soly\IdeaProjects\spring-training-packages" />
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-17-REST-ConsumingAPIS\src\main\java\com\cydeo\DTO" />
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-16-REST-Jackson\src\main\java" />
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-16-REST-Jackson\src\main\java\com" />
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-15-REST\src\main\resources" />
-      <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-15-REST\src\main\java\com\cydeo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-13-Data-CinemaLab\src\main\resources" />
@@ -116,7 +147,7 @@
       <recent name="com.cydeo.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring17RestConsumingApisApplication">
+  <component name="RunManager" selected="Spring Boot.Spring18RestSchoolLabApplication">
     <configuration name="CommentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.CommentApp" />
       <module name="spring-05-Core-Abstraction" />
@@ -222,6 +253,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring18RestSchoolLabApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-18-REST-SchoolLab" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring18RestSchoolLabApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Spring11DataTableCreationApplication" />
@@ -295,14 +333,7 @@
       <workItem from="1669551953947" duration="2819000" />
       <workItem from="1669554806845" duration="1306000" />
       <workItem from="1669558839015" duration="11376000" />
-      <workItem from="1669609043726" duration="15073000" />
-    </task>
-    <task id="LOCAL-00038" summary="spring-11">
-      <created>1666581467817</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1666581467817</updated>
+      <workItem from="1669609043726" duration="17049000" />
     </task>
     <task id="LOCAL-00039" summary="spring-11">
       <created>1666582043938</created>
@@ -640,7 +671,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669657811867</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="spring-17">
+      <created>1669688483586</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1669688483586</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
