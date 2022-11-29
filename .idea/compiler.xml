@@ -10,14 +10,15 @@
         <module name="spring-10-Thymeleaf" />
         <module name="spring-13-Data-CinemaLab" />
         <module name="spring-11-Data-TableCreation" />
+        <module name="spring-17-REST-ConsumingApis" />
         <module name="spring-03-Wiring" />
-        <module name="spring-16-REST-Jackson" />
         <module name="spring-01-Core-IoC-Bean-Annotation" />
         <module name="spring-00-Coupling" />
         <module name="spring-05-Core-Abstraction" />
         <module name="spring-09-MVC-Model" />
         <module name="spring-08-MVC-Controller" />
         <module name="spring-18-REST-SchoolLab" />
+        <module name="Spring-16-REST-Jackson" />
         <module name="spring-02-Core-IoC-Stereotype-Annotation" />
         <module name="spring-15-REST" />
         <module name="spring-12-Data-Relationship" />
@@ -29,11 +30,13 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-08-MVC-controller" target="11" />
+      <module name="spring-16-REST-Jackson" target="11" />
       <module name="spring-17-REST-ConsumingAPIS" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Spring-16-REST-Jackson" options="-parameters" />
       <module name="spring-07-SpringBoot-Demo" options="-parameters" />
       <module name="spring-08-MVC-Controller" options="-parameters" />
       <module name="spring-08-MVC-controller" options="-parameters" />
