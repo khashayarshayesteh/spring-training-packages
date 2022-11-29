@@ -17,7 +17,7 @@ public class ResponseWrapper {
     private Integer code;
     private Object data;
 
-    public ResponseWrapper(String message, Object Data){
+    public ResponseWrapper(String message, Object data){
 
         this.success = true;
         this.message = message;
