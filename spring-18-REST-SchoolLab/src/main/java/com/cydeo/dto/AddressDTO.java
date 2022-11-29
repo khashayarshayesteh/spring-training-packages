@@ -27,19 +27,17 @@ public class AddressDTO {
     private String city;
     private String postalCode;
 
-
     private AddressType addressType;
 
-    @JsonBackReference(value = "student-address-reference")                                //defaultReference
+    @JsonBackReference(value = "student-address-reference")          // defaultReference
     private StudentDTO student;
 
-    @JsonBackReference  (value = "parent-address-reference")                                //defaultReference
+    @JsonBackReference(value = "parent-address-reference")          // defaultReference
     private ParentDTO parent;
 
-    @JsonBackReference (value = "teacher-address-reference")                                    //defaultReference
+    @JsonBackReference(value = "teacher-address-reference")          // defaultReference
     private TeacherDTO teacher;
 
-
-    private Integer currentTemperature;    //weather information, which we will get it from 3rt party  API later
+    private Integer currentTemperature;     // Weather information, which we will later get it from 3rd party API
 
 }

@@ -37,7 +37,7 @@ public class TeacherDTO {
 
     private EducationLevel educationLevel;
 
-    @JsonManagedReference (value = "teacher-address-reference")
+    @JsonManagedReference(value = "teacher-address-reference")
     private AddressDTO address;
 
 }

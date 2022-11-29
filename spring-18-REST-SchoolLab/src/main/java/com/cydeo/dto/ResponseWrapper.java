@@ -8,8 +8,8 @@ import org.springframework.http.HttpStatus;
 
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 public class ResponseWrapper {
 
     private boolean success;
@@ -17,23 +17,17 @@ public class ResponseWrapper {
     private Integer code;
     private Object data;
 
-    public ResponseWrapper(String message, Object data){
-
+    public ResponseWrapper(String message, Object data) {
         this.success = true;
         this.message = message;
         this.code = HttpStatus.OK.value();
         this.data = data;
-
     }
 
-    public ResponseWrapper(String message){
-
+    public ResponseWrapper(String message) {
         this.success = true;
         this.message = message;
         this.code = HttpStatus.OK.value();
-
-
     }
-
 
 }
