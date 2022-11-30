@@ -15,6 +15,7 @@ import java.util.List;
 
 @RestController
 public class SchoolController {
+
     private final TeacherService teacherService;
     private final StudentService studentService;
     private final ParentService parentService;
@@ -27,22 +28,22 @@ public class SchoolController {
         this.addressService = addressService;
     }
 
-
     @GetMapping("/teachers")
-    public List<TeacherDTO> readAllTeacher(){
+    public List<TeacherDTO> readAllTeacher() {
         List<TeacherDTO> teachers = teacherService.findAll();
         return teachers;
     }
 
     @GetMapping("/students")
-    public ResponseEntity<ResponseWrapper> readAllStudents(){
-        return ResponseEntity.ok(new ResponseWrapper("Students are successfully retrieved",studentService.findAll() ));
-
+    public ResponseEntity<ResponseWrapper> readAllStudents() {
+        return ResponseEntity.ok(new ResponseWrapper("Students are successfully retrieved", studentService.findAll()));
     }
 
     @GetMapping("/parents")
-    public ResponseEntity<ResponseWrapper> readAllParents(){
-        ResponseWrapper responseWrapper = new ResponseWrapper(true, "parents are retrieved successfully", HttpStatus.OK.value(),parentService.findAll() );
+    public ResponseEntity<ResponseWrapper> readAllParents() {
+        ResponseWrapper responseWrapper =
+                new ResponseWrapper(true, "Parents are retrieved successfully",
+                        HttpStatus.OK.value(), parentService.findAll());
         return ResponseEntity.status(HttpStatus.OK).body(responseWrapper);
     }
 
@@ -50,15 +51,12 @@ public class SchoolController {
     public ResponseEntity<ResponseWrapper> getAddress(@PathVariable("id") Long id) throws Exception {
         AddressDTO addressDTO = addressService.findById(id);
         return ResponseEntity.ok(new ResponseWrapper("Address is successfully retrieved", addressDTO));
-
-
     }
 
     @PutMapping("/address/{id}")
-    public AddressDTO updateAddress(@PathVariable("id") Long id , @RequestBody AddressDTO addressDTO) throws Exception {
+    public AddressDTO updateAddress(@PathVariable("id") Long id, @RequestBody AddressDTO addressDTO) throws Exception {
         addressDTO.setId(id);
-       return addressService.update(addressDTO);
-
+        return addressService.update(addressDTO);
     }
 
 }
