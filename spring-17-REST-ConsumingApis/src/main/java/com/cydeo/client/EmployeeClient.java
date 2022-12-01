@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RequestHeader;
 
 @FeignClient(url="https://dummyapi.io",name = "EMPLOYEE-CLIENT")
 public interface EmployeeClient {
-
     @GetMapping("/data/v1/user?limit=10")
     Employee getEmployee(@RequestHeader("app-id") String id);
 }
