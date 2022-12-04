@@ -6,16 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="spring-19">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/cydeo/Spring19RestOpenApi3Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/cydeo/Spring19RestOpenApi3Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/cydeo/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/cydeo/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/cydeo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/cydeo/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/Spring19RestOpenApi3Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/Spring19RestOpenApi3Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/controller/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/controller/AccountController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/controller/UserController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +107,7 @@
       <recent name="com.cydeo.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring18RestSchoolLabApplication">
+  <component name="RunManager" selected="Spring Boot.Spring19RestOpenApi3Application">
     <configuration name="CommentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.CommentApp" />
       <module name="spring-05-Core-Abstraction" />
@@ -350,13 +340,7 @@
       <workItem from="1669872219010" duration="9680000" />
       <workItem from="1669923898903" duration="6683000" />
       <workItem from="1669996506745" duration="1656000" />
-    </task>
-    <task id="LOCAL-00055" summary="CinemaLab">
-      <created>1666761087546</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1666761087546</updated>
+      <workItem from="1670083097947" duration="1625000" />
     </task>
     <task id="LOCAL-00056" summary="CinemaLab">
       <created>1666762056953</created>
@@ -694,7 +678,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669877965746</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="spring-19">
+      <created>1670083145829</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1670083145830</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
