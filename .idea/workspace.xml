@@ -4,8 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="spring-19">
+    <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="spring-20">
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-21-AOP/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-21-AOP/src/main/java/com/cydeo/Spring21AopApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-21-AOP/src/main/java/com/cydeo/annotation/LoggingAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-21-AOP/src/main/java/com/cydeo/aspect/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-21-AOP/src/main/java/com/cydeo/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-21-AOP/src/main/java/com/cydeo/dto/CourseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-21-AOP/src/main/java/com/cydeo/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-21-AOP/src/main/java/com/cydeo/repository/CourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-21-AOP/src/main/java/com/cydeo/service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-21-AOP/src/main/java/com/cydeo/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-21-AOP/src/main/java/com/cydeo/util/MapperUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-21-AOP/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-21-AOP/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-21-AOP/src/test/java/com/cydeo/Spring21AopApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/cydeo/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/cydeo/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/controller/OrganizationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/controller/OrganizationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +47,8 @@
         <option value="HTML File" />
         <option value="spring-beans.schema" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,41 +85,41 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/soly/IdeaProjects/spring-training-packages&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;show.run.dashboard.notification&quot;: &quot;false&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;ae67eb9c99e984f0d9b9d65f2a76bbda&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/soly/IdeaProjects/spring-training-packages/spring-08-MVC-Controller/src/main/java/com/cydeo/cydeoApplication&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/soly/IdeaProjects/spring-training-packages",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "show.run.dashboard.notification": "false",
+    "spring.configuration.checksum": "ae67eb9c99e984f0d9b9d65f2a76bbda",
+    "two.files.diff.last.used.file": "C:/Users/soly/IdeaProjects/spring-training-packages/spring-08-MVC-Controller/src/main/java/com/cydeo/cydeoApplication"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages" />
+      <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-20-REST-Security-Keycloak-LicenseApp\src\main\java\com\cydeo\config" />
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-18-REST-SchoolLab\src" />
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-18-REST-SchoolLab\src\main\java\com\cydeo" />
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-18-REST-SchoolLab\src\main\java\com\cydeo\dto" />
-      <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-17-REST-ConsumingAPIS\src\main\java\com\cydeo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-13-Data-CinemaLab\src\main\resources" />
@@ -100,14 +129,14 @@
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-09-MVC-Model\src\main\resources\templates\mentor" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cydeo.annotation" />
       <recent name="com.cydeo.controller" />
       <recent name="com.cydeo.dto" />
       <recent name="com.cydeo.util" />
       <recent name="com.cydeo.repository" />
-      <recent name="com.cydeo.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring19RestOpenApi3Application">
+  <component name="RunManager" selected="Spring Boot.Spring21AopApplication">
     <configuration name="CommentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.CommentApp" />
       <module name="spring-05-Core-Abstraction" />
@@ -257,6 +286,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring20RestSecurityKeycloakLicenseAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-20-REST-Security-Keycloak-LicenseApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring20RestSecurityKeycloakLicenseAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring20RestSecurityKeycloakOrganizationsAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-20-REST-Security-Keycloak-OrganizationsApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring20RestSecurityKeycloakOrganizationsAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring21AopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-21-AOP" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring21AopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Spring19RestOpenApi3ApplicationTests.contextLoads" />
@@ -341,13 +391,11 @@
       <workItem from="1669923898903" duration="6683000" />
       <workItem from="1669996506745" duration="1656000" />
       <workItem from="1670083097947" duration="1625000" />
-    </task>
-    <task id="LOCAL-00056" summary="CinemaLab">
-      <created>1666762056953</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1666762056953</updated>
+      <workItem from="1670169328338" duration="9977000" />
+      <workItem from="1670221474559" duration="4459000" />
+      <workItem from="1670255655313" duration="60000" />
+      <workItem from="1670258806089" duration="669000" />
+      <workItem from="1670736127613" duration="12426000" />
     </task>
     <task id="LOCAL-00057" summary="CinemaLab">
       <created>1666763769461</created>
@@ -685,7 +733,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670083145830</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="spring-20 LicenseApp">
+      <created>1670169563657</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1670169563659</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -719,7 +774,8 @@
     <MESSAGE value="spring-17" />
     <MESSAGE value="spring-18" />
     <MESSAGE value="spring-19" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring-19" />
+    <MESSAGE value="spring-20 LicenseApp" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring-20 LicenseApp" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
