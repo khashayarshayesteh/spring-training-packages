@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="spring-22" />
+    <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="spring-22">
+      <change afterPath="$PROJECT_DIR$/spring-22-UnitTesting-JUnit5/src/main/resources/sample-data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +72,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/soly/IdeaProjects/spring-training-packages/spring-22-UnitTesting-JUnit5",
+    "last_opened_file_path": "C:/Users/soly/IdeaProjects/spring-training-packages/spring-22-UnitTesting-JUnit5/src/main/resources",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -87,11 +90,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-22-UnitTesting-JUnit5\src\main\resources" />
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-22-UnitTesting-JUnit5" />
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-22-UnitTesting-JUnit5\src\test\java" />
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages" />
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-20-REST-Security-Keycloak-LicenseApp\src\main\java\com\cydeo\config" />
-      <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-18-REST-SchoolLab\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\soly\IdeaProjects\spring-training-packages\spring-13-Data-CinemaLab\src\main\resources" />
@@ -114,7 +117,17 @@
       <recent name="com.cydeo.util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
+  <component name="RunManager" selected="JUnit.CalculatorParameterizedTest.testCase3">
+    <configuration name="CalculatorParameterizedTest.testCase3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-22-UnitTesting-JUnit5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorParameterizedTest" />
+      <option name="METHOD_NAME" value="testCase3(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-22-UnitTesting-JUnit5" />
       <option name="PACKAGE_NAME" value="" />
@@ -139,16 +152,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
       <option name="METHOD_NAME" value="test1Case2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.test1Case3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-22-UnitTesting-JUnit5" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="test1Case3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -293,11 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorParameterizedTest.testCase3" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.test1Case2" />
         <item itemvalue="JUnit.CalculatorTest.add2" />
         <item itemvalue="JUnit.CalculatorTest.test1Case4" />
-        <item itemvalue="JUnit.CalculatorTest.test1Case3" />
       </list>
     </recent_temporary>
   </component>
@@ -383,14 +386,7 @@
       <workItem from="1670258806089" duration="669000" />
       <workItem from="1670736127613" duration="12426000" />
       <workItem from="1671119172639" duration="5862000" />
-      <workItem from="1671154565673" duration="10321000" />
-    </task>
-    <task id="LOCAL-00065" summary="spring-14">
-      <created>1666887954114</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1666887954114</updated>
+      <workItem from="1671154565673" duration="11289000" />
     </task>
     <task id="LOCAL-00066" summary="spring-14">
       <created>1666890916955</created>
@@ -728,7 +724,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671178416696</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="spring-22">
+      <created>1671178449332</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1671178449332</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
