@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="spring-22">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-22-UnitTesting-JUnit5/spring-22-UnitTesting-JUnit5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-22-UnitTesting-JUnit5/spring-22-UnitTesting-JUnit5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-22-UnitTesting-JUnit5/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-22-UnitTesting-JUnit5/src/main/java/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-22-UnitTesting-JUnit5/src/test/java/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-22-UnitTesting-JUnit5/src/test/java/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-22-UnitTesting-JUnit5/target/classes/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-22-UnitTesting-JUnit5/target/classes/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-22-UnitTesting-JUnit5/target/test-classes/CalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-22-UnitTesting-JUnit5/target/test-classes/CalculatorTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,16 +120,7 @@
       <recent name="com.cydeo.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.add">
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-22-UnitTesting-JUnit5" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CalculatorTest.add2">
     <configuration name="CalculatorTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-22-UnitTesting-JUnit5" />
       <option name="PACKAGE_NAME" value="" />
@@ -137,27 +131,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.add2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-22-UnitTesting-JUnit5" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="testCase1" />
+      <option name="METHOD_NAME" value="add2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spring19RestOpenApi3ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring-18-REST-OpenAPI3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.Spring19RestOpenApi3ApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
+    <configuration name="CalculatorTest.test1Case2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-22-UnitTesting-JUnit5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="test1Case2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.test1Case3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-22-UnitTesting-JUnit5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="test1Case3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.test1Case4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-22-UnitTesting-JUnit5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="test1Case4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -195,13 +203,6 @@
     <configuration name="Spring11Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-11-Data-TableCreation" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.canon.DataApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Spring11DataTableCreationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
-      <module name="spring-11-Data-TableCreation" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.DataApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -299,11 +300,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest.add2" />
+        <item itemvalue="JUnit.CalculatorTest.test1Case4" />
+        <item itemvalue="JUnit.CalculatorTest.test1Case3" />
+        <item itemvalue="JUnit.CalculatorTest.test1Case2" />
         <item itemvalue="JUnit.CalculatorTest.add" />
-        <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="JUnit.CalculatorTest.testCase1" />
-        <item itemvalue="JUnit.Spring19RestOpenApi3ApplicationTests.contextLoads" />
-        <item itemvalue="Spring Boot.Spring11DataTableCreationApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -389,14 +390,7 @@
       <workItem from="1670258806089" duration="669000" />
       <workItem from="1670736127613" duration="12426000" />
       <workItem from="1671119172639" duration="5862000" />
-      <workItem from="1671154565673" duration="3192000" />
-    </task>
-    <task id="LOCAL-00062" summary="CinemaLab">
-      <created>1666769124745</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1666769124745</updated>
+      <workItem from="1671154565673" duration="8561000" />
     </task>
     <task id="LOCAL-00063" summary="CinemaLab">
       <created>1666771848778</created>
@@ -734,7 +728,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671165820691</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="spring-22">
+      <created>1671169704765</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1671169704765</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
