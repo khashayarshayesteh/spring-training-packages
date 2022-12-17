@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="spring-23">
-      <change afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/test/java/com/cydeo/service/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/test/java/com/cydeo/service/impl/ProjectServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/test/java/com/cydeo/service/impl/UserServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/main/java/com/cydeo/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/main/java/com/cydeo/service/impl/ProjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/main/java/com/cydeo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/main/java/com/cydeo/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +110,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.cydeo.service.impl" />
       <recent name="com.cydeo.service" />
       <recent name="" />
     </key>
@@ -118,7 +122,7 @@
       <recent name="com.cydeo.util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorParameterizedTest.testCase3">
+  <component name="RunManager" selected="JUnit.ProjectServiceImplTest.getByProjectCode_ExceptionTest">
     <configuration name="CalculatorParameterizedTest.testCase3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-22-UnitTesting-JUnit5" />
       <option name="PACKAGE_NAME" value="" />
@@ -138,32 +142,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.add2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-22-UnitTesting-JUnit5" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="add2" />
+    <configuration name="ProjectServiceImplTest.getByProjectCode_ExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ticketing-project-data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.service.impl.ProjectServiceImplTest" />
+      <option name="METHOD_NAME" value="getByProjectCode_ExceptionTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.test1Case2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-22-UnitTesting-JUnit5" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="test1Case2" />
+    <configuration name="ProjectServiceImplTest.getByProjectCode_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ticketing-project-data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.service.impl.ProjectServiceImplTest" />
+      <option name="METHOD_NAME" value="getByProjectCode_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.test1Case4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-22-UnitTesting-JUnit5" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="test1Case4" />
+    <configuration name="UserServiceImplTest.findByUserName_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ticketing-project-data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.service.impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="findByUserName_Test" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CydeolApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-09-MVC-Model" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.CydeolApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-11-Data-TableCreation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.DataApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -304,11 +340,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProjectServiceImplTest.getByProjectCode_ExceptionTest" />
+        <item itemvalue="JUnit.ProjectServiceImplTest.getByProjectCode_Test" />
+        <item itemvalue="JUnit.UserServiceImplTest.findByUserName_Test" />
         <item itemvalue="JUnit.CalculatorParameterizedTest.testCase3" />
         <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="JUnit.CalculatorTest.test1Case2" />
-        <item itemvalue="JUnit.CalculatorTest.add2" />
-        <item itemvalue="JUnit.CalculatorTest.test1Case4" />
       </list>
     </recent_temporary>
   </component>
@@ -395,14 +431,7 @@
       <workItem from="1670736127613" duration="12426000" />
       <workItem from="1671119172639" duration="5862000" />
       <workItem from="1671154565673" duration="12637000" />
-      <workItem from="1671205431504" duration="2287000" />
-    </task>
-    <task id="LOCAL-00069" summary="spring-14">
-      <created>1666939749244</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1666939749244</updated>
+      <workItem from="1671205431504" duration="11415000" />
     </task>
     <task id="LOCAL-00070" summary="spring-14">
       <created>1667075178580</created>
@@ -740,7 +769,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671205504284</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="spring-23">
+      <created>1671259758680</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1671259758680</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
