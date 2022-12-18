@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db12e297-74ce-4a20-ad88-ec59a8589dbd" name="Changes" comment="spring-23">
-      <change afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/test/java/com/cydeo/service/impl/ProjectServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/test/java/com/cydeo/service/impl/UserServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/test/java/com/cydeo/service/impl/TaskServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/main/java/com/cydeo/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/main/java/com/cydeo/service/impl/ProjectServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/main/java/com/cydeo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/main/java/com/cydeo/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,22 +119,13 @@
       <recent name="com.cydeo.util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProjectServiceImplTest.getByProjectCode_ExceptionTest">
+  <component name="RunManager" selected="JUnit.TaskServiceImplTest.findById_Test">
     <configuration name="CalculatorParameterizedTest.testCase3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-22-UnitTesting-JUnit5" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CalculatorParameterizedTest" />
       <option name="METHOD_NAME" value="testCase3(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-22-UnitTesting-JUnit5" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,6 +157,22 @@
       <option name="PACKAGE_NAME" value="com.cydeo.service.impl" />
       <option name="MAIN_CLASS_NAME" value="com.cydeo.service.impl.ProjectServiceImplTest" />
       <option name="METHOD_NAME" value="getByProjectCode_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskServiceImplTest.findById_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ticketing-project-data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.service.impl.TaskServiceImplTest" />
+      <option name="METHOD_NAME" value="findById_Test(long)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -340,11 +344,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TaskServiceImplTest.findById_Test" />
         <item itemvalue="JUnit.ProjectServiceImplTest.getByProjectCode_ExceptionTest" />
         <item itemvalue="JUnit.ProjectServiceImplTest.getByProjectCode_Test" />
         <item itemvalue="JUnit.UserServiceImplTest.findByUserName_Test" />
         <item itemvalue="JUnit.CalculatorParameterizedTest.testCase3" />
-        <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -431,21 +435,7 @@
       <workItem from="1670736127613" duration="12426000" />
       <workItem from="1671119172639" duration="5862000" />
       <workItem from="1671154565673" duration="12637000" />
-      <workItem from="1671205431504" duration="11415000" />
-    </task>
-    <task id="LOCAL-00070" summary="spring-14">
-      <created>1667075178580</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1667075178580</updated>
-    </task>
-    <task id="LOCAL-00071" summary="spring-14">
-      <created>1667111537750</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1667111537750</updated>
+      <workItem from="1671205431504" duration="14596000" />
     </task>
     <task id="LOCAL-00072" summary="spring-14">
       <created>1669552011856</created>
@@ -776,7 +766,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671259758680</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="spring-23">
+      <created>1671316454420</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1671316454420</updated>
+    </task>
+    <task id="LOCAL-00120" summary="spring-23">
+      <created>1671316496467</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1671316496467</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
