@@ -6,11 +6,9 @@ import lombok.NoArgsConstructor;
 import javax.persistence.Entity;
 
 @Entity
-@Data
 @NoArgsConstructor
+@Data
 public class Genre extends BaseEntity {
 
     private String name;
-
-
 }

@@ -12,24 +12,22 @@ import javax.persistence.*;
 @Setter
 @NoArgsConstructor
 @Table(name = "user_account")
-public class User extends BaseEntity{
+public class User extends BaseEntity {
 
     private String email;
-    private String username;
     private String password;
-
+    private String username;
 
     @OneToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "account_detals_id")
+    @JoinColumn(name = "account_details_id")
     private Account account;
-
 
     @Override
     public String toString() {
         return "User{" +
                 "email='" + email + '\'' +
-                ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
-                               '}';
+                ", username='" + username + '\'' +
+                '}';
     }
 }
